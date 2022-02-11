@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Tổng</title>
+</head>
+<body>
+<h1 id="s1"></h1>
+</body>
+<script>
+    let sum = 0;
+    for (let a = parseInt(prompt('Nhập số đầu')),b = parseInt(prompt('Nhập số cuối')) ; a <= b; a++) {
+        sum += a;
+    }
+    document.getElementById('s1').innerHTML=' Tổng của dãy số là  '+  sum;
+</script>
+</html>
